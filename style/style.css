@@ -1,10 +1,61 @@
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Lato", sans-serif;
+}
+/* banner section design starts here */
+.bg-color {
+    background-color: rgba(229, 84, 115, 0.1);
+    max-width: 1536px;
+    height: 680px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.header-content{
+    max-width: 560px;
+}
+.header-title {
+    color: rgb(39, 39, 39);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.primary-button {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    padding: 20px 40px;
+    color: white;
+    margin-top: 25px;
+}
+.banner-image{
+    max-width: 500px;
+}
+/* banner section design ends here */
+/* responsive design */
+@media screen and (max-width: 576px) {
+    .header-container{
+        flex-direction: column;
+    }
+    .bg-color{
+        height: 100%;
+    }
 }
