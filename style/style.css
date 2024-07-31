@@ -50,12 +50,30 @@ body {
     max-width: 500px;
 }
 /* banner section design ends here */
+
+
+
 /* responsive design */
 @media screen and (max-width: 576px) {
-    .header-container{
+.header-container{
         flex-direction: column;
     }
     .bg-color{
         height: 100%;
+    }
+
+        
+
+}
+/* Responsive design for tablet */
+@media screen and (min-width: 577px) and (max-width:992px){
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .bg-color{
+        height: 100%;
+    }
+    .header-content{
+        margin-top: 30px;
     }
 }
