@@ -15,7 +15,7 @@ body {
 .bg-color {
     background-color: rgba(229, 84, 115, 0.1);
     max-width: 1536px;
-    height: 680px;
+    /* height: 680px; */
 }
 
 .header-container {
@@ -58,7 +58,7 @@ body {
 
 /* Featured section starts here */
 .Featured {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 150px;
 }
@@ -95,7 +95,7 @@ body {
 /* support section starts */
 
 .support{
-    width: 90%;
+    width: 80%;
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
     margin: 0 auto;
@@ -123,7 +123,7 @@ body {
 
 .sale-section{
     max-width: 1536px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: center;
@@ -160,6 +160,20 @@ body {
 
 /* sale section ends here */
 
+/* form section */
+.form-section{
+    max-width: 1280px;
+    height: 350px;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-position:center ;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
 
 /* responsive design */
 @media screen and (max-width: 576px) {
@@ -167,9 +181,9 @@ body {
         flex-direction: column;
     }
 
-    .bg-color {
+    /* .bg-color {
         height: 100%;
-    }
+    } */
 
     .featured-image {
         flex-direction: column;
@@ -205,9 +219,9 @@ body {
         flex-direction: column-reverse;
     }
 
-    .bg-color {
+    /* .bg-color {
         height: 100%;
-    }
+    } */
 
     .header-content {
         margin-top: 30px;
