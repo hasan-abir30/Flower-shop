@@ -10,6 +10,7 @@
 body {
     font-family: "Lato", sans-serif;
 }
+
 /* banner section design starts here */
 .bg-color {
     background-color: rgba(229, 84, 115, 0.1);
@@ -23,9 +24,11 @@ body {
     align-items: center;
     gap: 70px;
 }
-.header-content{
+
+.header-content {
     max-width: 560px;
 }
+
 .header-title {
     color: rgb(39, 39, 39);
     font-size: 4rem;
@@ -46,34 +49,92 @@ body {
     color: white;
     margin-top: 25px;
 }
-.banner-image{
+
+.banner-image {
     max-width: 500px;
 }
+
 /* banner section design ends here */
+.Featured {
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.featured-text {
+    /* border: 1px solid brown; */
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.featured-image {
+    /* border:1px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.image-container {
+    max-width: 460px;
+    /* height: 480px; */
+    /* border: 1px solid aqua; */
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 300px;
+    height: 450px;
+}
+
+.about {
+    text-decoration: underline;
+    color: #272727;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
 
 
 
 /* responsive design */
 @media screen and (max-width: 576px) {
-.header-container{
+    .header-container {
         flex-direction: column;
     }
-    .bg-color{
+
+    .bg-color {
         height: 100%;
     }
 
-        
+    .featured-image {
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .Featured-description {
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .Featured {
+        margin-top: 50px;
+    }
 }
+
 /* Responsive design for tablet */
-@media screen and (min-width: 577px) and (max-width:992px){
-    .header-container{
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .header-container {
         flex-direction: column-reverse;
     }
-    .bg-color{
+
+    .bg-color {
         height: 100%;
     }
-    .header-content{
+
+    .header-content {
         margin-top: 30px;
     }
 }
