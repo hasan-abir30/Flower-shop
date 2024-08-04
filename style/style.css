@@ -94,7 +94,30 @@ body {
     font-weight: 700;
     margin-top: 20px;
 }
+.support{
+    width: 90%;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 70px 150px;
+}
+.support-container{ 
+    display: flex;
+    justify-content:space-around ;
+}
 
+.support-content{
+    text-align: center;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.support-description{
+    color: rgba(39, 39, 39, 0.8);
+    font-weight: 700;
+    font-size: 1rem;
+}
 
 
 
@@ -121,6 +144,13 @@ body {
 
     .Featured {
         margin-top: 50px;
+    }
+    .support-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .support-description{
+        text-align: left;
     }
 }
 
